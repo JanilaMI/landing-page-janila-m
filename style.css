@@ -1,0 +1,233 @@
+/* Write some CSS below */
+
+body {
+  background-color: white;
+  margin: 0;
+  padding: 0;
+  color: black;
+  font-size: 18px;
+  font-family: 'Overpass';
+}
+
+h1, h2, h3 {
+  font-family: 'Chivo';
+}
+
+h1 {
+  color: white;
+  font-size: 46px;
+}
+
+h2 {
+  font-size: 28px;
+  margin-bottom: 25px;
+}
+
+h3 {
+  font-size: 22px;
+}
+
+a{
+  text-decoration: none;
+}
+
+.banner {
+  background-image: url('images/forêt1.png');
+  background-position: center;
+  background-size: cover;
+  padding: 150px 0;
+  text-align: center;
+}
+
+.banner p{
+  font-weight: 400;
+  font-size: 24px;
+  color: #ffffff;
+  margin-bottom: 40px;
+  opacity: 0.7;
+}
+
+.btn-yellow{
+  background-color: #0a2e08;
+  color: white;
+  border-radius: 5px;
+  padding: 20px 50px;
+  font-size: 20px;
+  font-weight: 700;
+}
+
+.btn-yellow:hover{
+  opacity: 0.7;
+}
+
+
+.container {
+  width: 900px;
+  margin: 20px auto;
+}
+
+.card-white {
+  background-color: white;
+  padding: 80px;
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.1);
+  margin: 0;
+  border-radius: 5px;
+  color: rgb(18, 14, 14);
+  text-align: center;
+}
+
+.info {
+  margin: 20px auto;
+  width: 900px;
+  text-align: left;
+}
+
+.card-white img{
+  width: 100%;
+  height: 180px;
+  object-fit: cover;
+  border-radius: 4px;
+}
+
+.footer {
+  background-color: #0a2e08;
+  color: white;
+  padding: 50px 0;
+  margin-bottom: auto;
+}
+
+.footer p {
+font-size: 20px;
+}
+
+.cards-inline{
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-gap: 16px;
+}
+
+:root{
+  --hauteur-menu: 60px;
+}
+* {
+  margin: 0px;
+  padding: 0px;
+  font-family: Montserrat, sans-serif;
+}
+
+.list-inline{
+  list-style: none;
+  padding-left: 10px;
+  color: black;
+}
+
+.list-inline li{
+  display: inline;
+}
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #101010;
+}
+
+
+nav {
+  background-color: #f2f2f2;
+  border-bottom: 1px solid #ddd;
+  height: 50px;
+}
+
+nav {
+  background-color: #0c0c0c;
+}
+nav {
+  width: 100%;
+  font-size: 18px;
+  position: sticky;
+  top: 0;
+}
+
+nav li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+nav li a:hover {
+  background-color: #111;
+}
+
+
+.menu {
+  margin: 0 auto;
+  max-width: 1200px;
+}
+
+.list-inline {
+  display: flex;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.list-inline li {
+  margin: 0 10px;
+}
+
+.btn-menu {
+  color: #555;
+  display: block;
+  font-size: 16px;
+  line-height: 50px;
+  padding: 0 10px;
+  text-decoration: none;
+  transition: all 0.2s ease-in-out;
+}
+
+.btn-menu:hover {
+  background-color: #555;
+  color: #fff;
+}
+
+
+li {
+  float: left;
+}
+
+li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+/* Change the link color to #111 (black) on hover */
+li a:hover {
+  background-color: #111;
+}
+
+.btn-black {
+  display: inline-block;
+  padding: 8px 16px;
+  font-size: 16px;
+  font-weight: bold;
+  text-align: center;
+  text-decoration: none;
+  background-color: black;
+  color: white;
+  border: 2px solid black;
+  border-radius: 4px;
+  transition: background-color 0.3s, color 0.3s;
+}
+
+.btn-black:hover {
+  background-color: white;
+  color: black;
+  cursor: pointer;
+}
